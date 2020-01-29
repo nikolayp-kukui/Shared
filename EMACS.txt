@@ -1,0 +1,11 @@
+C-x C-f ~/.emacs -> opens init file!
+
+C-x o -> switch buffers!
+
+M-x -> open some sort of console 
+C-g -> close the console
+
+C-S-BackSpace -> remove line
+
+~/.emacs:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+(setq cua-mode t) -> enables cua mode!

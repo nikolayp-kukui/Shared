@@ -1,0 +1,31 @@
+git reset --hard :: resets the state to the last commit deletes uncommited changes
+
+git checkout -b new-branch (opt)existing-branch :: swithes to (and -b creates new) brach second name if you want to create the brach based on different brach the one you are on (local)
+git push origin new-branch :: creates the branch at git
+git branch -a :: shows all branches
+
+git branch -d (or -D for --force) branch_name :: deletes branch
+git add . :: adds all changed/new files;
+git status :: gives you all changes/new files for one
+git commit -m "{message}" :: commits all added changes locally 
+git push origin {branch name} :: origin the repo we cloned from; pushes there. 
+
+git checkout {to be merged to brach} :: 
+git merge {other bracnh} :: merges the two branches 
+git commit(opt){merged branched} :: commits the results afterwards
+
+git init :: use before connecting folder to origin
+git remote add origin :: https://github.com/Nikismyname/SharedFiles.git - makes the init folder the working dir for the remote with name "origin"
+git remote :: lists all remotes that have been added
+
+--------------------------------------------------------------
+
+git config --global credential.helper wincred -> uses windows credentials
+
+
+
+
+
+
+
+
